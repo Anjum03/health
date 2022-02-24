@@ -1,0 +1,49 @@
+doctype html
+html
+    head
+        title Food Website
+        scripts 
+            include ../static/st.js
+        style
+            include ../static/style.css
+            
+    body
+        nav#navbar
+            ul
+                li #[a(href="/") Home]
+                li #[a(href="/") Tips] 
+                li #[a(href="/") Advice]
+                li #[a(href="/") Receips] 
+                li #[a(href="/") About Us] 
+                li #[a(href="/") Contact Us] 
+        section#home
+            header.showcase
+                h2 It is even better than an expensive cookery book.
+                h3 Learn how to make your favourite restaurants dishes.
+                
+            div.top-box#top-box-a
+                    h3 About Us
+                    button.btn
+                        | Tap
+            div.top-box#top-box-b
+                    h3 Contact Us
+                    button.btn
+                        | Tap
+        section#boxes 
+            div.box-1
+                h2 Tips
+                button.btnn
+                    | Read
+            div.box-2
+                h2 Advice
+                button.btnn
+                    |Read
+            div.box-3
+                h2 Receips
+                button.btnn
+                    |Read
+        footer#footer
+            | Copyright &copy; All rights are reserved
+            
+
+

@@ -1,0 +1,23 @@
+doctype html
+
+//-Layout.pug
+
+html
+    head
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        title Food Website
+        block scripts
+        block style
+    body
+        nav#navbar
+            ul
+                li #[a(href="/") Home]
+                li #[a(href="/tips") Tips]
+                li #[a(href="/advice") Advice]
+                li #[a(href="/receips") Receips]
+                li #[a(href="/about") About Us]
+                li #[a(href="/contact") Contact Us]
+        block content
+        block foot
+          #footer
+             | Copyright &copy; All rights are reserved

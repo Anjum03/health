@@ -1,0 +1,52 @@
+h2{
+    margin:5px ;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+
+
+h4{
+
+    margin-bottom: 11px;
+    margin-left:65px;
+    font-size: 25px;
+}
+.box{
+    font-size: 20px;
+    margin: 12px;
+    margin-left: 110px;
+}
+
+h3{
+    font-size: 25px;
+    margin: 15px;
+    margin-left: 65px;
+}
+
+#intro li{
+    font-size: 20px;
+    margin-left: 110px;
+}
+
+
+@media screen and (max-width:850px) {
+    h4{
+        margin-left: 40px;
+    }
+    h3{
+        font-size: 20px;
+        margin-left: 30px;
+   }
+   .box{
+       margin-left: 80px;
+   }
+   #intro li{
+       margin-left: 80px;
+       font-size: 20px;
+   }
+}
+
+
+ 
