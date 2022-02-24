@@ -7,19 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Anjum03/foods.git"
-  },
   "keywords": [
     "awesome"
   ],
   "author": "Anjum Ansari",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Anjum03/foods/issues"
-  },
-  "homepage": "https://github.com/Anjum03/foods#readme",
+  "license": "ISC",  
   "dependencies": {
     "express": "^4.17.3",
     "nodemon": "^2.0.15",
