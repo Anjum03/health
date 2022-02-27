@@ -6,44 +6,33 @@ h2{
 }
 
 .box{
-    font-size: 23px;
-    margin: 20px;
-    margin-left: 40px;
+    font-size: 20px;
+    margin: 17px;
+}
+
+.box li{
+    margin-left: 30px;
 }
 
 h4{
-    margin: 20px;
-    margin-left: 20px;
+    margin: 25px;
     font-size: 23px;
 }
 
 #intro{
     display: flex;
-
-}
-.img{
-    width: 50%;
-}
-.img img{
-    margin: 60px;
-    border:2px solid black ;
-    height:370px;
-
 }
 
-@media screen and (max-width:1331px) {
-    #navbar{
-        width: 135%;
-    }
-}
 
 @media screen and (max-width:850px) {
     .box{
+
         font-size: 28px;
     }
     #intro{
         display: flex;
-        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     h4{
         font-size: 30px;
@@ -54,35 +43,5 @@ h4{
     a{
         font-size: 28px;
     }
-}
-@media screen and (max-width:330px){
-    h2{
-        font-size: 23px;
-    }
-    h4{
-        font-size: 21px;
-    }
-    .box{
-        font-size: 15px;
-    }
-    .img img{
-        display: block;
-        height: auto;
-        width: 100%;
-    }
-    .img{
-        width: 85%;
-        margin-left: -36px;
-    }
-}
-
-@media (min-width:330px) and (max-width:500px) {
-    #navbar{
-        width: 200%;
-    }
-    .box{
-        font-size: 24px;
-    }
-    
-}
+} 
 

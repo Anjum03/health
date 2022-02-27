@@ -22,33 +22,11 @@ h3{
     margin-left:50px ;
 }
 
-
-
-@media screen and (max-width:850px) {
+@media screen and (max-width:760px) {
+    h2{
+        text-align: center;
+    }
     p{
-        font-size: 27px;
-        margin-right: 20px;
+        margin: 40px;
     }
-    .box{
-        font-size: 27px;
-    }
-}
-
-
-@media screen and (max-width:500px){
-    #navbar{
-        display: block;
-    }
-   ul{
-      
-    width: 100%;
-   }
-   p{
-       font-size: 22px;
-   }
-   .box{
-       font-size: 22px;
-   }
-  
-    
 }
